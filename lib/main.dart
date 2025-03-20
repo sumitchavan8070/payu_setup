@@ -5,7 +5,7 @@ import 'package:payu_checkoutpro_flutter/payu_checkoutpro_flutter.dart';
 import 'package:payu_checkoutpro_flutter_example/HashService.dart';
 
 void main() {
-  runApp(MaterialApp(home: MyApp()));
+  runApp(const MaterialApp(home: MyApp()));
 }
 
 class MyApp extends StatefulWidget {
@@ -119,7 +119,7 @@ class _MyAppState extends State<MyApp> implements PayUCheckoutProProtocol {
 
 class PayUTestCredentials {
   // These are standard PayU Money sandbox credentials used for testing
-  static const merchantKey = "aJWzRK"; // PayU Money sandbox test key
+  static const merchantKey = ""; // PayU Money sandbox test key
   static const iosSurl = "https://www.payumoney.com/mobileapp/payumoney/success.php";
   static const iosFurl = "https://www.payumoney.com/mobileapp/payumoney/failure.php";
   static const androidSurl = "https://www.payumoney.com/mobileapp/payumoney/success.php";
