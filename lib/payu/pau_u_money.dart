@@ -4,13 +4,13 @@ import 'package:payu_checkoutpro_flutter/PayUConstantKeys.dart';
 
 class PayUTestCredentials {
 
-  static const merchantKey = "aJWzRK"; //  your Merchant Key
+  static const merchantKey = ""; //  your Merchant Key
   static const iosSurl = "https://payuresponse.firebaseapp.com/success";
   static const iosFurl = "https://payuresponse.firebaseapp.com/failure";
   static const androidSurl = "https://payuresponse.firebaseapp.com/success";
   static const androidFurl = "https://payuresponse.firebaseapp.com/failure";
 
-  static const merchantSalt = "4wgOUmGrsrDLG96UTExMwejbXzSIVVj1"; // Add you Salt here.
+  static const merchantSalt = ""; // Add you Salt here.
 
   static const merchantAccessKey = ""; //Add Merchant Access Key - Optional
   static const sodexoSourceId = ""; //Add sodexo Source Id - Optional

@@ -1,8 +1,6 @@
 //TODO
 import 'package:flutter/material.dart';
-import 'package:payu_checkoutpro_flutter_example/landing_view.dart';
 import 'package:payu_checkoutpro_flutter_example/payu/api_money_pay_u_payment_view.dart';
-import 'package:payu_checkoutpro_flutter_example/razorpay/razorpay.dart';
 import 'package:payu_checkoutpro_flutter_example/theme/core_theme.dart';
 import 'package:utilities/theme/app_box_decoration.dart';
 
@@ -30,7 +28,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: CoreAppTheme.theme(),
-      home: const LandingView(),
+      home: const ApiMoneyPayUPaymentScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
