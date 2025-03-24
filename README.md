@@ -1,22 +1,46 @@
-# PayU Payment Integration in Flutter App
+# PayU Integration in Flutter App
 
-This Flutter project integrates the PayU payment gateway using the official `payu_checkoutpro_flutter` package. The integration includes a fully working **test payment** flow, ready for sandbox or production environments.
+🚀 ## Overview
 
-## Features
+This project demonstrates how to integrate PayU Payment Gateway in a Flutter application for seamless online payments. It includes setup instructions, implementation details, and a working example.
 
-- Integrated **PayU CheckoutPro** for Flutter.
-- Supports **test and live environments**.
-- Multiple payment options: UPI, Netbanking, Wallets, Credit/Debit Cards, etc.
-- Complete handling of **payment success**, **failure**, and **cancellation** callbacks.
+📌 ## Features
 
-## Important Notice ⚠️
+- Easy PayU Integration
+- Secure Payment Processing
+- Supports UPI, Cards, Net Banking, and Wallets
 
-> **Make sure to always use valid test or live PayU credentials (Merchant Key, Salt, etc.). Invalid or missing credentials WILL cause the app to crash or result in errors.**
+🫠 ## Installation
 
-## Installation
+### 1⃣ Clone the Repository
 
-1. Add the dependency:
+```sh
+git clone https://github.com/yourusername/payu_flutter
+cd payu_flutter
+```
 
-```yaml
-dependencies:
-  payu_checkoutpro_flutter: ^1.2.0
+### 2⃣ Install Dependencies
+
+```sh
+flutter pub get
+```
+
+⚙️ ## Setup PayU
+
+1. Create an account on [PayU](https://www.payu.in/).
+2. Get API Keys from PayU Dashboard.
+3. Use the API key in your Flutter app.
+
+📌 ## Demo
+
+<img src="https://github.com/sumitchavan8070/payu_setup/blob/main/Screenshot_20250324_222358.png" width="400">
+
+<img src="https://github.com/sumitchavan8070/payu_setup/blob/main/Screenshot_20250324_222414.png" width="400">
+
+💡 ## Contributing
+
+Feel free to fork the repo, open an issue, or submit a pull request to improve the project.
+
+🐜 ## License
+
+This project is licensed under the MIT License.
